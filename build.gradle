@@ -7,7 +7,8 @@
 // Modern way to apply plugins
 plugins {
     id 'java'
-    id 'application'
+    id 'maven-publish'
+    id 'application' // Make sure this is in your plugins block at the top
 }
 
 // In this section you declare where to find the dependencies of your project
